@@ -30,11 +30,11 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Derraphics/minute-pitch.git
+https://github.com/Derraphics/Derraphics/tree/master/virtual
   ```
 2. Move to the folder and install requirements
   ```bash
-  cd minute-pitch
+  cd Derro-Pitches
 ### create virtual environment and install pip
   $ python3 -m venv --without-pip virtual
   $ source virtual/bin/env
