@@ -43,7 +43,6 @@ def comment(pitch_id):
         return redirect(url_for('.comment', pitch_id = pitch_id))
     return render_template('comment.html', form =form, pitch = pitch,all_comments=all_comments)
 
-
 @main.route('/user/<name>')
 def profile(name):
     user = User.query.filter_by(username = name).first()
